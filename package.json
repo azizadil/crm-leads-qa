@@ -1,0 +1,23 @@
+{
+  "name": "crm-leads-qa",
+  "version": "1.0.0",
+  "description": "CRM de dispatching de Leads",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/azizadil/crm-leads-qa.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/azizadil/crm-leads-qa/issues"
+  },
+  "homepage": "https://github.com/azizadil/crm-leads-qa#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.58.2",
+    "@types/node": "^25.5.0"
+  }
+}
