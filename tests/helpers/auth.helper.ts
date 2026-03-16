@@ -13,9 +13,9 @@ export const USERS = {
 
 export async function loginAs(page: Page, role: 'client' | 'admin') {
   const user = USERS[role];
-  await page.goto('/login');
-  await page.fill('input[type="email"]', user.email);
-  await page.fill('input[type="password"]', user.password);
-  await page.click('button[type="submit"]');
+await page.goto('/login');
+await page.fill('#email', user.email);
+await page.fill('#password', user.password);
+await page.click('button[type="submit"]');
   await page.waitForURL(/dashboard|accueil|home/, { timeout: 10000 });
 }
